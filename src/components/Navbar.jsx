@@ -15,12 +15,7 @@ const Navbar = () => {
         </h3>
         <h1 className="text-2xl font-bold">Foodzilla Food's</h1>
        </div>
-       
-     
-      
       </div>
-
-   
 
       <div className="mt-3 lg:mt-0">
         <input
@@ -31,8 +26,7 @@ const Navbar = () => {
           autoComplete="off"
           onChange={(e) => dispatch(setSearch(e.target.value))}
           className="p-3 border border-zinc-400 text-sm rounded-lg outline-none w-full lg:w-[25vw] "
-        />
-       
+        />       
       </div>
     </nav>
   );
